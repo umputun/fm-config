@@ -1,23 +1,20 @@
 feeds:
+
   all-umputun:
     title: Весь Umputun
     description: Общий фид всех подкастов с участием Umputun
     link: http://umputun.com
     language: "ru-ru"
     sources:
-      - name: Еженедельный подкаст от Umputun (UWP)
-        url: http://feeds.rucast.net/Umputun
-      - name: Радио-Т
-        url: http://feeds.rucast.net/radio-t
-      - name: Пираты Радио-Т
-        url: http://feeds.feedburner.com/pirate-radio-t
+      - {name: "Еженедельный подкаст от Umputun (UWP)", url: "http://feeds.rucast.net/Umputun"}
+      - {name: "Радио-Т", url: "http://feeds.rucast.net/radio-t"}
+      - {name: "Пираты Радио-Т", url: "http://feeds.feedburner.com/pirate-radio-t"}
 
   echo-msk:
     title: Эхо Москвы
     description: Правильный, комбинированный фид избранных передач
     link: http://echo.msk.ru
     language: "ru-ru"
-    image: echomsk.png
     
     sources:
       - {name: "Владимир Кара-Мурза", url: "https://echo.msk.ru/programs/graniweek/rss-audio.xml"}
@@ -54,4 +51,4 @@ system:
   update: 5m
   max_per_feed: 5
   max_total: 50
-  max_keep: 1000
+  max_keep: 5000
