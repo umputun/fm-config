@@ -13,6 +13,9 @@ services:
                 max-size: "10m"
                 max-file: "5"
 
+        networks:
+            - proxy
+
         environment:
             - MHOST
             - DEBUG=false
