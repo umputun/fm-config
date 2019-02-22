@@ -35,6 +35,7 @@ feeds:
       - {name: "Мой голос", url: "https://echo.msk.ru/programs/myvoice/rss-audio.xml"}
       - {name: "Стрелок", url: "https://echo.msk.ru/programs/strelok/rss-audio.xml"}
       - {name: "Будем наблюдать", url: "https://echo.msk.ru/programs/observation/rss-audio.xml"}
+      - {name: "A-Team", url: "https://echo.msk.ru/programs/a_team/rss-audio.xml"}
 
   all-umputun:
     title: Весь Umputun
