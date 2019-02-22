@@ -24,10 +24,10 @@ services:
         ports:
             - "8097:8080"
 
-    updater:
-        build: updater
-        hostname: updater
-        container_name: updater
+    fm-updater:
+        build: fm-updater
+        hostname: fm-updater
+        container_name: fm-updater
         restart: always
         logging: *default_logging
         volumes:
