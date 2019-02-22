@@ -5,6 +5,7 @@ feeds:
     description: Правильный, комбинированный фид избранных передач
     link: http://echo.msk.ru
     language: "ru-ru"
+    image: images/echomsk.png
     sources:
       - {name: "Владимир Кара-Мурза", url: "https://echo.msk.ru/programs/graniweek/rss-audio.xml"}
       - {name: "Народ против", url: "https://echo.msk.ru/programs/opponent/rss-audio.xml"}
@@ -42,6 +43,7 @@ feeds:
     description: Общий фид всех подкастов с участием Umputun
     link: http://umputun.com
     language: "ru-ru"
+    image: images/all_umputun.png
     sources:
       - {name: "Еженедельный подкаст от Umputun (UWP)", url: "http://feeds.rucast.net/Umputun"}
       - {name: "Радио-Т", url: "http://feeds.rucast.net/radio-t"}

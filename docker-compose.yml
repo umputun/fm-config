@@ -25,6 +25,7 @@ services:
         volumes:
             - ./var:/srv/var # mapped location to save status
             - ./etc:/srv/etc # mapped location for config
+            - ./images:/srv/images # mapped location for images
         ports:
             - "8097:8080"
 
