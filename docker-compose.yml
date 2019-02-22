@@ -25,7 +25,7 @@ services:
             - "8097:8080"
 
     fm-updater:
-        build: fm-updater
+        build: updater
         hostname: fm-updater
         container_name: fm-updater
         restart: always
