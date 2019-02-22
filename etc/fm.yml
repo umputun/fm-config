@@ -46,6 +46,7 @@ feeds:
       - {name: "Радио-Т", url: "http://feeds.rucast.net/radio-t"}
       - {name: "Пираты Радио-Т", url: "http://feeds.feedburner.com/pirate-radio-t"}
 
+
 system:
   update: 5m
   max_per_feed: 5
