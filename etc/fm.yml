@@ -1,21 +1,10 @@
 feeds:
 
-  all-umputun:
-    title: Весь Umputun
-    description: Общий фид всех подкастов с участием Umputun
-    link: http://umputun.com
-    language: "ru-ru"
-    sources:
-      - {name: "Еженедельный подкаст от Umputun (UWP)", url: "http://feeds.rucast.net/Umputun"}
-      - {name: "Радио-Т", url: "http://feeds.rucast.net/radio-t"}
-      - {name: "Пираты Радио-Т", url: "http://feeds.feedburner.com/pirate-radio-t"}
-
   echo-msk:
     title: Эхо Москвы
     description: Правильный, комбинированный фид избранных передач
     link: http://echo.msk.ru
     language: "ru-ru"
-    
     sources:
       - {name: "Владимир Кара-Мурза", url: "https://echo.msk.ru/programs/graniweek/rss-audio.xml"}
       - {name: "Народ против", url: "https://echo.msk.ru/programs/opponent/rss-audio.xml"}
@@ -46,6 +35,16 @@ feeds:
       - {name: "Мой голос", url: "https://echo.msk.ru/programs/myvoice/rss-audio.xml"}
       - {name: "Стрелок", url: "https://echo.msk.ru/programs/strelok/rss-audio.xml"}
       - {name: "Будем наблюдать", url: "https://echo.msk.ru/programs/observation/rss-audio.xml"}
+
+  all-umputun:
+    title: Весь Umputun
+    description: Общий фид всех подкастов с участием Umputun
+    link: http://umputun.com
+    language: "ru-ru"
+    sources:
+      - {name: "Еженедельный подкаст от Umputun (UWP)", url: "http://feeds.rucast.net/Umputun"}
+      - {name: "Радио-Т", url: "http://feeds.rucast.net/radio-t"}
+      - {name: "Пираты Радио-Т", url: "http://feeds.feedburner.com/pirate-radio-t"}
 
 system:
   update: 5m
