@@ -7,7 +7,7 @@ services:
         hostname: feed-master
         restart: always
 
-        logging:
+        logging: &default_logging
             driver: json-file
             options:
                 max-size: "10m"
@@ -23,3 +23,13 @@ services:
             - ./etc:/srv/etc # mapped location for config
         ports:
             - "8097:8080"
+
+    updater:
+        build: updater
+        hostname: updater
+        container_name: updater
+        restart: always
+        logging: *default_logging
+        volumes:
+            - /home/umputun/.ssh/id_rsa.pub:/home/app/.ssh/id_rsa.pub
+            - /home/umputun/.ssh/id_rsa:/home/app/.ssh/id_rsa
