@@ -37,6 +37,9 @@ feeds:
       - {name: "Стрелок", url: "https://echo.msk.ru/programs/strelok/rss-audio.xml"}
       - {name: "Будем наблюдать", url: "https://echo.msk.ru/programs/observation/rss-audio.xml"}
       - {name: "A-Team", url: "https://echo.msk.ru/programs/a_team/rss-audio.xml"}
+      - {name: "Время Белковского", url: "https://echo.msk.ru/programs/belkovskytime/rss-audio.xml"}
+      - {name: "Що там у них", url: "https://echo.msk.ru/programs/sho_tam/rss-audio.xml"}
+      - {name: "Дорожная карта", url: "https://echo.msk.ru/programs/Road_map/rss-audio.xml"}
 
   all-umputun:
     title: Весь Umputun
