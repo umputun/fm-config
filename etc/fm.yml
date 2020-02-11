@@ -41,6 +41,9 @@ feeds:
       - {name: "Время Белковского", url: "https://echo.msk.ru/programs/belkovskytime/rss-audio.xml"}
       - {name: "Що там у них", url: "https://echo.msk.ru/programs/sho_tam/rss-audio.xml"}
       - {name: "Дорожная карта", url: "https://echo.msk.ru/programs/Road_map/rss-audio.xml"}
+      - {name: "Личный приём", url: "https://echo.msk.ru/programs/priem/rss-audio.xml"}
+      - {name: "Условно ваш", url: "https://echo.msk.ru/programs/conditional/rss-audio.xml"}
+      - {name: "Курс Потапенко", url: "https://echo.msk.ru/programs/kurs/rss-audio.xml"}
 
   all-umputun:
     title: Весь Umputun
