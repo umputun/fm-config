@@ -7,6 +7,8 @@ feeds:
     language: "ru-ru"
     image: images/echomsk.png
     telegram_channel: echomsk_u
+    filter:
+      title: (Часть \d+)
     sources:
       - {name: "Владимир Кара-Мурза", url: "https://echo.msk.ru/programs/graniweek/rss-audio.xml"}
       - {name: "Народ против", url: "https://echo.msk.ru/programs/opponent/rss-audio.xml"}
