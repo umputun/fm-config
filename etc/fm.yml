@@ -7,6 +7,7 @@ feeds:
     language: "ru-ru"
     image: images/echomsk.png
     telegram_channel: echomsk_u
+    ext_date: yyyyddmm
     filter:
       title: (Часть \d+)
     sources:
